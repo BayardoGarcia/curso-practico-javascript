@@ -2,11 +2,11 @@
 console.group("Cuadrado");
 
 function perimetroCuadrado(lado){
-    return  ladoCuadrado+4;
+    return  lado*4;
 }
 
 function areaCuadrado(lado){
-    return lado+lado;
+    return lado*lado;
 }
 
 console.groupEnd();
